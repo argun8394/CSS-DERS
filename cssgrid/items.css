@@ -1,0 +1,10 @@
+#container {
+    display: grid;
+    grid-template-columns: 5rem 100px 200px 100px;
+    grid-template-rows: 100px 400px 100px;
+}
+
+.content {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
