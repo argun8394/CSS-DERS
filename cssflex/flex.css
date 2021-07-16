@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Flex container properties*/
+
+.flex-container {
+    border: 6px solid green;
+    display: flex;
+    height: 400px;
+    /* display: inline-flex; */
+    /*flex direction*/
+    /* flex-direction: row; */
+    /* default değer*/
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: ; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: ; */
+    /* flex-flow: row nowrap; */
+    /* flex-flow: column wrap; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: baseline; */
+    /* align-content: flex-start; */
+    /* align-content: space-around; */
+}
+
+.items {
+    background-color: indianred;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    width: 100px;
+}
+
+
+/* 
+.item1 {
+    font-size: 70px;
+}
+
+.item2 {
+    font-size: 100px;
+} */
