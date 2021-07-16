@@ -40,15 +40,31 @@
     padding: 10px;
     margin: 3px;
     text-align: center;
-    width: 100px;
+    width: 300px;
 }
 
-
-/* 
 .item1 {
-    font-size: 70px;
+    /* font-size: 70px; */
+    /*order ın default değeri 0 dır*/
+    /* order: 1; */
+    /* align-self: flex-start; */
 }
 
 .item2 {
-    font-size: 100px;
-} */
+    /* font-size: 100px; */
+    /* order: 2; */
+    /* flex-basis: 200px; */
+    /* align-self: flex-end; */
+}
+
+.item3 {
+    /* order: 4; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+    align-self: center;
+}
+
+.item4 {
+    /* order: 4; */
+    /* flex-grow: 3; */
+}
