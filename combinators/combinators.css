@@ -1,0 +1,47 @@
+/*
+element selector p{}
+id selector #
+class selector .
+universal *
+gruping selector p,h1,h2, {}
+element.class p.hello{}
+*/
+
+
+/* descendant slector */
+
+
+/*
+div p {
+    background-color: royalblue;
+    color: wheat;
+}
+*/
+
+
+/* child selector */
+
+
+/*
+p {
+    background-color: yellow;
+    color: black;
+}
+*/
+
+
+/* Adjecent sibling selector*/
+
+
+/*
+div+p {
+    background-color: tomato;
+}
+*/
+
+
+/* general sibling celector*/
+
+div~p {
+    background-color: turquoise;
+}
